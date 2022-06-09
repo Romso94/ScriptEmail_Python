@@ -23,7 +23,7 @@ with open('Liste_Clients.csv', encoding='utf-8') as csvFile:
         else :
             Nombre_Email +=1
            
-            Liste_email.append(row[4])
+            Liste_email.append(row[4]) #Numero Colonne Email
             
 
 
